@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+input,
+select,
+textarea {
+  width: 100%;
+}
+#header {
+  width: 100%;
+  background-color: #262F34;
+  padding: 9px;
+}
+#header > div {
+  float: left;
+}
+#header .logo {
+  width: 20%;
+  margin-top: 10px;
+}
+#header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.hero {
+  position: relative;
+}
+.hero a:link,
+.hero a:visited {
+  background-color: red;
+  display: block;
+  padding: 10px 50px;
+  color: white;
+  text-decoration: none;
+}
+.hero .content {
+  padding: 10% 10%;
+}
+#footer {
+  background-color: #262F34;
+  padding: 20%;
+}
+* {
+  box-sizing: border-box;
+}
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}

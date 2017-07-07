@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+#header {
+  background-color: #222;
+  padding: 10px
+}
+
+#header > div {
+  float: left;
+}
+
+#header .logo{
+  width: 20%;
+  margin-top: 10px;
+}
+
+
+#header::after {
+  content:'';
+  clear: both;
+  display: block;
+}
+
+#footer {
+  background-color: #222;
+  padding: 20%;
+}
+
+.hero {
+  position: relative;
+}
+
+
+.hero a:link, .hero a:visited {
+  background-color: red;
+  display: block;
+  padding: 10px 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.padding{
+  padding: 10% 10%;
+}
+
+/*div {
+  border: 1px red solid;
+}*/
